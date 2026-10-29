@@ -1,4 +1,7 @@
-[build]
+ [build]
   base = "admin-web"
   command = "npm run build"
   publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "20"
